@@ -11,11 +11,11 @@
 Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapat demikian. Maka dari itu, kami tergerak untuk menyelesaikan masalah ini melalui website yang dapat membuat jadwal kuliah dengan praktis.
 
 ## Hasil Survey dari Kuisioner
-[chart1](/Dokumentasi/chart1.png)
-[chart2](/Dokumentasi/chart2.png)
-[chart3](/Dokumentasi/chart3.png)
-[chart4](/Dokumentasi/chart4.png)
-[chart5](/Dokumentasi/chart5.png)
+(/Dokumentasi/chart1.png)
+(/Dokumentasi/chart2.png)
+(/Dokumentasi/chart3.png)
+(/Dokumentasi/chart4.png)
+(/Dokumentasi/chart5.png)
 
 ## Fitur
 1. Tampilan yang mudah dimengerti
