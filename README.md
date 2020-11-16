@@ -12,10 +12,10 @@ Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapa
 
 ## Hasil Survey dari Kuisioner
 <img src="Dokumentasi/chart1.png"/>
-(/Dokumentasi/chart2.png)
-(/Dokumentasi/chart3.png)
-(/Dokumentasi/chart4.png)
-(/Dokumentasi/chart5.png)
+<img src="Dokumentasi/chart2.png"/>
+<img src="Dokumentasi/chart3.png"/>
+<img src="Dokumentasi/chart4.png"/>
+<img src="Dokumentasi/chart5.png"/>
 
 ## Fitur
 1. Tampilan yang mudah dimengerti
