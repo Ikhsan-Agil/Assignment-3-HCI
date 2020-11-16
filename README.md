@@ -1,9 +1,9 @@
 # Assignment 3
 
 # Team K
-1. Nehemiah Austen Pison (1313619021 / @EzraelVio)
-2. Ikhsan Agil Kusuma (1313619005 / @Ikhsan-Agil)
-3. Muhammad Faris Al Husain (1313619020 / @FarisAlHusain20)
+1. Nehemiah Austen Pison (1313619021)- EzraelVio
+2. Ikhsan Agil Kusuma (1313619005)- Ikhsan-Agil
+3. Muhammad Faris Al Husain (1313619020)- FarisAlHusain20
 
 # Phase 1
 
@@ -11,7 +11,7 @@
 Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapat demikian. Maka dari itu, kami tergerak untuk menyelesaikan masalah ini melalui website yang dapat membuat jadwal kuliah dengan praktis.
 
 ## Hasil Survey dari Kuisioner
-(/Dokumentasi/chart1.png)
+<img src="Dokumentasi/chart1.png"/>
 (/Dokumentasi/chart2.png)
 (/Dokumentasi/chart3.png)
 (/Dokumentasi/chart4.png)
