@@ -12,15 +12,6 @@ Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapa
 
 # Hasil Survey dari Kuisioner
 
-Forms response chart. Question title: Semester. Number of responses: 52 responses.
-
-Forms response chart. Question title: Apakah anda sering membuat tabel jadwal kuliah?. Number of responses: 52 responses.
-
-Forms response chart. Question title: Apakah anda pernah mengalami kesulitan dalam membuat tabel jadwal kuliah?. Number of responses: 52 responses.
-
-Forms response chart. Question title: Apakah solusi yang anda sebutkan sebelumnya efektif?. Number of responses: 30 responses.
-
-Forms response chart. Question title: Apakah anda akan tertarik dengan adanya Web App pembantu pembuatan jadwal kuliah harian?. Number of responses: 52 responses.
 
 # Fitur
 1. Tampilan yang mudah dimengerti
