@@ -7,13 +7,13 @@
 
 # Phase 1
 
-# Website Builder Jadwal Kuliah
+## Website Builder Jadwal Kuliah
 Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapat demikian. Maka dari itu, kami tergerak untuk menyelesaikan masalah ini melalui website yang dapat membuat jadwal kuliah dengan praktis.
 
-# Hasil Survey dari Kuisioner
+## Hasil Survey dari Kuisioner
 
 
-# Fitur
+## Fitur
 1. Tampilan yang mudah dimengerti
 2. Dapat mengubah jadwal yang telah ditulis sebelumnya (cloudsave dengan key system)
 3. Dapat mencetak jadwal menjadi bentuk jpeg dan pdf
