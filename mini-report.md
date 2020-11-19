@@ -13,4 +13,4 @@ Pada grafik tersebut ditampilkan data tentang semester
 <img src="Dokumentasi/chart4.png"/>
 
 <img src="Dokumentasi/chart5.png"/>
-Jadi, berdasarkan pada 
+Jadi, berdasarkan pada data-data yang ada disimpulkan bahwa
