@@ -22,6 +22,11 @@ Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapa
 2. Dapat mengubah jadwal yang telah ditulis sebelumnya (cloudsave dengan key system)
 3. Dapat mencetak jadwal menjadi bentuk jpeg dan pdf
 
+# Phase 2
+berikut link presentasi kami:
+
+# Academic Report
+berikut link untuk academic Report:
 
 
 
