@@ -22,6 +22,9 @@ Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapa
 
 <img src="Dokumentasi/chart5.png"/>
 
+## Use Case Diagram
+
+
 ## Fitur
 1. Tampilan yang mudah dimengerti
 2. Dapat mengubah jadwal yang telah ditulis sebelumnya (cloudsave dengan key system)
