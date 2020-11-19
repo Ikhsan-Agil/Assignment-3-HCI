@@ -2,8 +2,8 @@
 
 # Phase 1
 
-## JADWAL DOT COM
-Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapat demikian. Maka dari itu, kami tergerak untuk menyelesaikan masalah ini dengan membuat website yang dapat membuat jadwal kuliah dengan praktis, yaitu JADWAL DOT COM.
+## Jadwal Dot Com
+Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapat demikian. Maka dari itu, kami tergerak untuk menyelesaikan masalah ini dengan membuat website yang dapat membuat jadwal kuliah dengan praktis, yaitu Jadwal Dot Com.
 
 ## Use Case Diagram
 <img src="Dokumentasi/use_case_diagram.jpeg"/>
@@ -26,7 +26,7 @@ Berikut link untuk mini report: [mini report](mini-report.md)
 berikut link video presentasi kami: [video presentasi](https://youtu.be/MM-FzABsrAM)
 
 # Report Writing
-berikut link untuk report writing: [report writing](Dokumentasi/)
+berikut link untuk report writing: [report writing](Dokumentasi/Report Writing Jadwal Dot Com.pdf)
 
 # Team K
 1.  Nehemiah Austen Pison (1313619021)- [EzraelVio](https://github.com/EzraelVio)
