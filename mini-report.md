@@ -1,7 +1,7 @@
 # Mini Report
 
-Pada Assignment 3 ini, kelompok kami telah menentukan ide untuk website yang akan dibuat, yaitu sebuah builder jadwal berbasis web yang bernama JADWAL DOT COM. Ide ini muncul karena kami menghadapi sebuah kesulitan dalam menyusun jadwal kuliah yang tidak tetap. Setelah mendapat ide, kami pun membuat kuesioner untuk mendapatkan data dari responden tentang apa saja yang diperlukan website kami dan antusias responden terhadap website kami.
-Website JADWAL DOT COM bersifat floating user karena kita mengambil responden tidak hanya dari satu universitas, melainkan dari beberapa universitas.
+Pada Assignment 3 ini, kelompok kami telah menentukan ide untuk website yang akan dibuat, yaitu sebuah builder jadwal berbasis web yang bernama Jadwal Dot Com. Ide ini muncul karena kami menghadapi sebuah kesulitan dalam menyusun jadwal kuliah yang tidak tetap. Setelah mendapat ide, kami pun membuat kuesioner untuk mendapatkan data dari responden tentang apa saja yang diperlukan website kami dan antusias responden terhadap website kami.
+Website Jadwal Dot Com bersifat floating user karena kita mengambil responden tidak hanya dari satu universitas, melainkan dari beberapa universitas.
 
 ## Prolog Kuesioner 1
 ### Analisis Grafik 1
@@ -30,9 +30,9 @@ Jadi, berdasarkan data-data yang ada dapat disimpulkan bahwa banyak responden ya
 ## Mock up Design
 Link untuk melihat mock up design: [mock up design Team K](Dokumentasi/Mock Up Design Team K)
 Alur mock up:
-1.  User masuk ke website JADWALDOTCOM dan website langsung memperlihatkan cara pengisisan, kotak pengisian, pratinjau, dan beberapa tombol pengeditan. 
+1.  User masuk ke website Jadwal Dot Com dan website langsung memperlihatkan cara pengisisan, kotak pengisian, pratinjau, dan beberapa tombol pengeditan. 
 2.  Selanjutnya, user mengisi data yang diinginkan lalu data yang telah  dimasukan dapat diubah juga. 
-3.  Setelah jadwal yang diinginkan telah selesai, pengguna  dapat mencetak jadwal nya langsung di website JADWALDOTCOM, website akan menghubungkan dengan printer yang tersedia untuk mencetak.
+3.  Setelah jadwal yang diinginkan telah selesai, pengguna  dapat mencetak jadwal nya langsung di website Jadwal Dot Com, website akan menghubungkan dengan printer yang tersedia untuk mencetak.
 
 
 
