@@ -1,6 +1,7 @@
 # Mini Report
 
-Pada Assignment 3 ini, kelompok kami telah menentukan ide untuk web yang akan dibuat, yaitu sebuah builder jadwal berbasis web yang bernama JADWAL DOT COM. Ide ini berasal dari 
+Pada Assignment 3 ini, kelompok kami telah menentukan ide untuk web yang akan dibuat, yaitu sebuah builder jadwal berbasis web yang bernama JADWAL DOT COM. Ide ini muncul karena kami menghadapi sebuah kesulitan dalam menyusun jadwal kuliah yang tidak tetap.  
+
 ## Prolog Kuesioner 1
 <img src="Dokumentasi/chart1.png"/>
 Pada grafik tersebut ditampilkan data tentang semester 
