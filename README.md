@@ -25,8 +25,8 @@ Berikut link untuk mini report: [mini report](mini-report.md)
 # Phase 2
 berikut link video presentasi kami: [video presentasi](https://youtu.be/MM-FzABsrAM)
 
-# Academic Report
-berikut link untuk academic report:
+# Report Writing
+berikut link untuk report writing: [report writing](Dokumentasi/)
 
 # Team K
 1.  Nehemiah Austen Pison (1313619021)- [EzraelVio](https://github.com/EzraelVio)
