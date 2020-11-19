@@ -26,7 +26,7 @@ Berikut link untuk mini report: [mini report](mini-report.md)
 berikut link video presentasi kami: [video presentasi](https://youtu.be/MM-FzABsrAM)
 
 # Report Writing
-berikut link untuk report writing: [report writing] (Dokumentasi/Report Writing Jadwal Dot Com.pdf)
+berikut link untuk report writing: [report writing](https://github.com/Ikhsan-Agil/Assignment-3-HCI-Team-K/blob/main/Dokumentasi/Report%20Writing%20Jadwal%20Dot%20Com.pdf)
 
 # Team K
 1.  Nehemiah Austen Pison (1313619021)- [EzraelVio](https://github.com/EzraelVio)
