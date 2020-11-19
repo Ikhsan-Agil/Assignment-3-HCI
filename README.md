@@ -23,7 +23,7 @@ Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapa
 <img src="Dokumentasi/chart5.png"/>
 
 ## Use Case Diagram
-
+<img src="Dokumentasi/use_case_diagram.jpeg"/>
 
 ## Fitur
 1. Tampilan yang mudah dimengerti
