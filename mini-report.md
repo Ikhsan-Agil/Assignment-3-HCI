@@ -28,7 +28,7 @@ Pada grafik tersebut ditampilkan data tentang antusiasme responden terhadap ide 
 Jadi, berdasarkan data-data yang ada dapat disimpulkan bahwa banyak responden yang masih kesulitan dalam membuat jadwal kuliah dan antusiasme mereka sangat tinggi terhadap website yang akan kami buat.
 
 ## Mock up Design
-Link untuk melihat mock up design: [mock up design Team K](Dokumentasi/Mock Up Design Team K)
+Link untuk melihat mock up design: [mock up design Team K](https://github.com/Ikhsan-Agil/Assignment-3-HCI-Team-K/tree/main/Dokumentasi/Mock%20Up%20Design%20Team%20K)
 
 Alur mock up:
 1.  User masuk ke website Jadwal Dot Com dan website langsung memperlihatkan cara pengisisan, kotak pengisian, pratinjau, dan beberapa tombol pengeditan. 
