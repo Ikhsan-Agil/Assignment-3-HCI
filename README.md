@@ -33,7 +33,7 @@ Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapa
 berikut link video presentasi kami: [video presentasi](https://youtu.be/MM-FzABsrAM)
 
 # Academic Report
-berikut link untuk academic Report:
+berikut link untuk academic report:
 
 # Team K
 1. Nehemiah Austen Pison (1313619021)- [EzraelVio](https://github.com/EzraelVio)
