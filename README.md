@@ -30,7 +30,7 @@ Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapa
 2. Desain yang menarik.
 
 # Phase 2
-berikut link presentasi kami: [silahkan klik link ini](https://youtu.be/MM-FzABsrAM)
+berikut link presentasi kami: [video presentasi](https://youtu.be/MM-FzABsrAM)
 
 # Academic Report
 berikut link untuk academic Report:
