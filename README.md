@@ -5,7 +5,7 @@
 ## JADWAL DOT COM
 Pernahkah anda kesulitan untuk membuat tabel jadwal kuliah? Kami juga berpendapat demikian. Maka dari itu, kami tergerak untuk menyelesaikan masalah ini dengan membuat website yang dapat membuat jadwal kuliah dengan praktis, yaitu JADWAL DOT COM.
 
-## Survey form Questionnaires
+## Survey form first Questionnaires
 
 <img src="Dokumentasi/chart1.png"/>
 
