@@ -1,20 +1,30 @@
 # Mini Report
 
-Pada Assignment 3 ini, kelompok kami telah menentukan ide untuk web yang akan dibuat, yaitu sebuah builder jadwal berbasis web yang bernama JADWAL DOT COM. Ide ini muncul karena kami menghadapi sebuah kesulitan dalam menyusun jadwal kuliah yang tidak tetap. Setelah mendapat ide, kami pun membuat kuesioner untuk mendapatkan data dari responden dari mahasiswa tentang apa saja yang diperlukan aplikasi kami dan antusias responden terhadap ide kami. 
+Pada Assignment 3 ini, kelompok kami telah menentukan ide untuk website yang akan dibuat, yaitu sebuah builder jadwal berbasis web yang bernama JADWAL DOT COM. Ide ini muncul karena kami menghadapi sebuah kesulitan dalam menyusun jadwal kuliah yang tidak tetap. Setelah mendapat ide, kami pun membuat kuesioner untuk mendapatkan data dari responden tentang apa saja yang diperlukan website kami dan antusias responden terhadap website kami. 
 
 ## Prolog Kuesioner 1
+### Analisis Grafik 1
 <img src="Dokumentasi/chart1.png"/>
 Pada grafik tersebut ditampilkan data tentang semester yang saat ini ditempuh oleh responden. Ternyata kebanyakan dari responden berada pada semester ketiga sampai dengan semester 5.
 
+### Analisis Grafik 2
 <img src="Dokumentasi/chart2.png"/>
-Pada grafik tersebut ditampilkan data tentang 
+Pada grafik tersebut ditampilkan data tentang seberapa sering responden membuat jadwal kuliah. Berdasarkan grafik tersebut, banyak responden yang masih jarang membuat jadwal kuliah.
 
+### Analisis Grafik 3
 <img src="Dokumentasi/chart3.png"/>
+Pada grafik tersebut, dapat disimpulkan bahwa masih banyak yang kesulitan dalam membuat jadwal kuliah.
 
+### Analisis Grafik 4
 <img src="Dokumentasi/chart4.png"/>
+Pada grafik ini, kebanyakan responden menyatakan bahwa solusi yang mereka temukan dalam membuat jadwal kuliah ternyata tidak begitu efektif.
 
+### Analisis Grafik 5
 <img src="Dokumentasi/chart5.png"/>
-Jadi, berdasarkan pada data-data yang ada disimpulkan bahwa
+Pada grafik tersebut ditampilkan data tentang antusiasme responden terhadap ide kami. Antusias mereka sangat tinggi karena kebanyakan dari mereka menyatakan sangat terbantu dengan adanya website yang kami buat.
+
+### Kesimpulan Analisis
+Jadi, berdasarkan data-data yang ada dapat disimpulkan bahwa banyak responden yang masih kesulitan dalam membuat jadwal kuliah dan antusiasme mereka sangat tinggi terhadap website yang akan kami buat.
 
 ## Mock up Design
 
