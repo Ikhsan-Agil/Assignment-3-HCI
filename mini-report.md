@@ -29,6 +29,7 @@ Jadi, berdasarkan data-data yang ada dapat disimpulkan bahwa banyak responden ya
 
 ## Mock up Design
 Link untuk melihat mock up design: [mock up design Team K](Dokumentasi/Mock Up Design Team K)
+
 Alur mock up:
 1.  User masuk ke website Jadwal Dot Com dan website langsung memperlihatkan cara pengisisan, kotak pengisian, pratinjau, dan beberapa tombol pengeditan. 
 2.  Selanjutnya, user mengisi data yang diinginkan lalu data yang telah  dimasukan dapat diubah juga. 
