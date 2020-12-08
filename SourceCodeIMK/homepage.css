@@ -63,6 +63,22 @@ main {
     outline: none;
 }
 
+#save {
+    background-color: #32CD32;
+    margin-left: 40px;
+    padding: 5px 20px;
+    color: whitesmoke;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#save:hover {
+    cursor: pointer;
+    background-color: #65f565;
+}
+
 #submit {
     margin-left: 5px;
     background-color: #32CD32;
@@ -75,15 +91,9 @@ main {
     font-size: 15px;
 }
 
-#save {
-    background-color: #32CD32;
-    margin-left: 40px;
-    padding: 5px 20px;
-    color: whitesmoke;
-    outline: none;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 15px;
+#submit:hover {
+    cursor: pointer;
+    background-color: #65f565;
 }
 
 table {
