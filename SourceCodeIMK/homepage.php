@@ -18,9 +18,9 @@
         <input type="text" name="dosen" id="dosen" placeholder="Dosen">
         <input type="text" name="mulai" id="mulai" placeholder="Mulai Jam ke-">
         <input type="text" name="selesai" id="selesai" placeholder="Selesai Jam ke-">
-        <input type="text" name="hari" id="hari" placeholder="Hari">
-        <input type="button" name="submit" id="submit" value="Submit">
+        <input type="text" name="hari" id="hari" placeholder="Hari">     
         <input type="button" name="save" id="save" value="Save">
+        <input type="button" name="submit" id="submit" value="Submit">
         <br>
         <table border="1" cellpadding="30" cellspacing="0">
             <tr>
@@ -113,6 +113,67 @@
                 <td></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
         </table>
     </main>
 </body>
