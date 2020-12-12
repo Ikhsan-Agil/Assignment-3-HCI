@@ -1,5 +1,5 @@
 <?php
-$hari = array("Senin", "selasa", "Rabu", "Kamis", "Jumat", "Sabut", "Minggu");
+$hari = array("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabut", "Minggu");
 ?>
 <table>
     <thead>
