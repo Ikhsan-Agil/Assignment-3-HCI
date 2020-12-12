@@ -29,3 +29,8 @@ CREATE TABLE logging (
     FOREIGN KEY (id_user) REFERENCES pengguna (id_user)
 ) ENGINE = InnoDB;
 
+
+INSERT INTO pengguna VALUES
+('1234567890', '10.12.20');
+INSERT INTO matkul VALUES
+('', 'jokowi', 'makan tai', 'senen', 1, 2, '1234567890');
