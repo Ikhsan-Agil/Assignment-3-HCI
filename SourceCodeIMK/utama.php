@@ -2,6 +2,7 @@
     session_start();
     require 'config.php';
     require 'user_set.php';
+    echo $id_user;
 ?>
 
 <!DOCTYPE HTML>
@@ -9,11 +10,28 @@
 
 <head>
   <title>Jadwaldotcom</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() { 
+      $("#formtabel").submit(function(e) {
+          e.preventDefault();
+          $.ajax({
+              url: 'input.php',
+              type: 'post',
+              data: $(this).serialize(),             
+              success: function(data) {               
+              document.getElementById("formtabel").reset();
+              $('#status').html(data);              
+              }
+          });
+      });
+  })
+ </script>
 </head>
 
 <body>
     <h1>JADWAL .(DOT) COM</H1>
-    <form action="input.php" method="POST">
+    <form id="formtabel" method="POST">
     <input type="text" name="nama_matkul" maxlength="20" required/>
     <input type="text" name="keterangan" maxlength="20" required/>
     <select nama="hari" required>
@@ -39,7 +57,7 @@
         }
     ?>
     </select>
-    <button type='button'>submit</button>
+    <input type='submit' id='submit' value='submit'>
     </form>
 </body>
 </html>
