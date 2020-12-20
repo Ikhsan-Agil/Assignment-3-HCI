@@ -1,5 +1,11 @@
 <?php
-$hari = array("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu");
+ini_set('error_reporting', 0);
+ini_set('display_errors', 0);
+session_start();
+require 'config.php';
+$hari = array("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabut", "Minggu");
+$id_user = $_SESSION['id_user'];
+
 ?>
 <table>
     <thead>
@@ -19,7 +25,7 @@ $hari = array("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu");
             echo "<td>" . $hari[$u] . "</td>";
 
             for ($p = 1 ; $p < 13 ; $p++) {
-                $sql = "SELECT nama_matkul, keterangan, waktumulai, waktuakhir FROM matkul WHERE id_user = '$id_user' AND hari = '$hari[$u]' AND waktumulai = '$p'";
+                $sql = "SELECT nama_matkul, keterangan, waktumulai, waktuakhir, id_matkul FROM matkul WHERE id_user = '$id_user' AND hari = '$hari[$u]' AND waktumulai = '$p'";
                 $statement = $conn->query($sql);
                 $matkulnya = $statement->fetch_all(MYSQLI_ASSOC);
             
@@ -30,6 +36,9 @@ $hari = array("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu");
 
                 echo "<td class=\"matkul\" colspan=\" " . $lama . "\">";
                 echo $matkulnya[0]['nama_matkul'] . "<br>" . $matkulnya[0]['keterangan'];
+                echo "<form class=\"hapus\" method=\"POST\" action=\"hapus.php\">";
+                echo "<input type=\"hidden\" name=\"id_matkul\" value=\" ". $matkulnya[0]['id_matkul'] . " \"> ";
+                echo "<input type=\"submit\" value=\"hapus\"></form>";
                 echo "</td>";
 
                 $p += $lama - 1;
