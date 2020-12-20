@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+date_default_timezone_set('Asia/Jakarta');
 require 'config.php';
 
 $nama_matkul= $_POST['nama_matkul'];
@@ -8,15 +10,16 @@ $hari       = $_POST['hari'];
 $waktumulai = $_POST['waktumulai'];
 $waktuakhir = $_POST['waktuakhir'];
 $id_user    = $_SESSION['id_user'];
+$action     = 'input';
 
-if (empty($nama_matkul)||empty($keterangan)||empty($hari)||empty($waktumulai)||empty($waktuakhir)) {
-    $message = "Semua field harus diisi!";
-    echo "<script type='text/javascript'>alert('$message');</script>";
+if ($waktuakhir < $waktumulai) {
+    echo "<div style='color:red'>Waktu mulai tidak bisa lebih besar dari waktu selesai!</div>";
 } else {
+    $waktu_dibuat = date("d.m.Y H:i:s");
     $sql = "INSERT INTO matkul VALUES ('', '$nama_matkul', '$keterangan', '$hari', '$waktumulai', '$waktuakhir', '$id_user')";
     $statement = $conn->query($sql);
-    $message = "Data berhasil diinput!";
-    echo "<script type='text/javascript'>alert('$message');</script>";
+
+    $sql = "INSERT INTO logging VALUES ('', '$id_user', '$action', '$waktu_dibuat')";
+    $statement = $conn->query($sql);
     }
-}
 ?>
