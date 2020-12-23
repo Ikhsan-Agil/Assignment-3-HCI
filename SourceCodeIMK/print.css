@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.matkul{
+    background-color:#ADD8E6;
+    color:black;
+    font-size: 13px;
+   
+}
+
+#hapus{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#hapus:hover{
+    background-color: #FF3232;
+}
