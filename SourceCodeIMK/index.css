@@ -61,31 +61,31 @@ main {
 #matkul {
     margin-left: 30px;
     padding: 5px 5px;
-    outline: none;
+    border: none;
 }
 
 #keterangan {
     margin-left: 5px;
     padding: 5px 5px;
-    outline: none;
+    border: none;
 }
 
 #mulai {
     margin-left: 5px;
     padding: 5px 0;
-    outline: none;
+    border: none;
 }
 
 #selesai {
     margin-left: 5px;
     padding: 5px 0;
-    outline: none;
+    border: none;
 }
 
 #hari {
     margin-left: 5px;
     padding: 5px 5px;
-    outline: none;
+    border: none;
 }
 
 #submit {
