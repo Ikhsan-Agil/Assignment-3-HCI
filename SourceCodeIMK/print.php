@@ -7,6 +7,9 @@ $hari = array("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabut", "Minggu");
 $id_user = $_SESSION['id_user'];
 
 ?>
+
+<link rel="stylesheet" href="print.css">
+
 <table>
     <thead>
       <th>&nbsp;</th>
