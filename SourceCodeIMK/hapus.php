@@ -11,7 +11,7 @@
     $sql = "DELETE FROM matkul WHERE id_matkul = '$id_matkul' AND id_user = '$id_user'";
     $statement = $conn->query($sql);
 
-    $sql = "INSERT INTO logging VALUES ('', '$id_user', '$action', '$waktu_dibuat')";
+    $sql = "INSERT INTO logging VALUES (null, '$id_user', '$action', '$waktu_dibuat')";
     $statement = $conn->query($sql);
 
     header("Location: index.php");
