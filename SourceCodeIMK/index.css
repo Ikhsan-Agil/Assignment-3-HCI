@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.kanan {
+    float: right;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #303030;
@@ -26,7 +30,7 @@ h1 {
 }
 
 #caridata {
-    float: right;
+    float: left;
 }
 
 #search {
@@ -55,46 +59,48 @@ h1 {
 }
 
 main {
+    font-family: 'Roboto', sans-serif;
     margin: 30px 20px;
 }
 
 #matkul {
     margin-left: 30px;
     padding: 5px 5px;
-    border-radius: 5px;
     border: none;
-    
+    border-radius: 5px;
 }
 
 #keterangan {
     margin-left: 5px;
     padding: 5px 5px;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
 }
 
 #mulai {
+    
     margin-left: 5px;
     padding: 5px 0;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
 }
 
 #selesai {
     margin-left: 5px;
     padding: 5px 0;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
 }
 
 #hari {
     margin-left: 5px;
     padding: 5px 5px;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
 }
 
 #submit {
+    
     margin-left: 5px;
     background-color: #32CD32;
     padding: 5px 20px;
@@ -112,16 +118,23 @@ main {
 }
 
 #btnprint {
+
     background-color: orange;
     color: white;
     font-weight: bold;
-    margin-left: 5px;
+    margin-left: 30px;
     padding: 5px 20px;
     border-radius: 10px;
     font-size: 15px;
     border: none;
     cursor: pointer;
 
+}
+
+
+#btnprint a{
+    text-decoration: none;
+    color: white;
 }
 
 #btnprint:hover {
@@ -136,10 +149,32 @@ table {
 tr {
     text-align: center;
     background-color: white;
-    padding: 10px 20px;
+
 }
 
 th,
 td {
-    padding: 15px 35px;
+    padding: 20px 30px;
+}
+
+@media print{
+    h1, header, #matkul, #keterangan, #hari, #mulai, #selesai, #submit, #btnprint{
+        display: none;
+    }
+
+    body{
+        background-color: #FFF;
+    }
+
+    table{
+        margin: auto;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    p{
+        color: black;
+        margin: 20px 0;
+    }
 }
