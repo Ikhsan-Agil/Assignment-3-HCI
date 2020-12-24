@@ -10,7 +10,7 @@ require 'user_set.php';
 <head>
     <title>Jadwaldotcom</title>
     <?php
-    //require 'script.php';
+    require 'script.php';
     ?>
     
     <link rel="stylesheet" href="index.css">
@@ -63,8 +63,11 @@ require 'user_set.php';
                 Submit
             </button>
             <input type="hidden" name="user_id" maxlength="10" value="<?php echo $id_user; ?>">
+            
+        </form>
+        <form action="" method="post">
             <button type='submit' name="print" id='btnprint'>
-                Cetak
+                <a href="cetak.php" target="_blank">Cetak</a>
             </button>
         </form>
 
@@ -74,6 +77,7 @@ require 'user_set.php';
             <?php
             require 'print.php';
             ?>
+            
         </div>
     </main>
 </body>
