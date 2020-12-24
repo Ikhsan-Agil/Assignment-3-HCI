@@ -16,10 +16,10 @@ if ($waktuakhir < $waktumulai) {
     echo "<div style='color:red'>Waktu mulai tidak bisa lebih besar dari waktu selesai!</div>";
 } else {
     $waktu_dibuat = date("d.m.Y H:i:s");
-    $sql = "INSERT INTO matkul VALUES ('', '$nama_matkul', '$keterangan', '$hari', '$waktumulai', '$waktuakhir', '$id_user')";
+    $sql = "INSERT INTO matkul VALUES (null, '$nama_matkul','$keterangan','$hari','$waktumulai','$waktuakhir','$id_user')";
     $statement = $conn->query($sql);
 
-    $sql = "INSERT INTO logging VALUES ('', '$id_user', '$action', '$waktu_dibuat')";
+    $sql = "INSERT INTO logging VALUES (null,'$id_user','$action','$waktu_dibuat')";
     $statement = $conn->query($sql);
     }
 ?>
