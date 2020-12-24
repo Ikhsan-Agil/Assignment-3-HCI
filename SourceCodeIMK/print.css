@@ -10,6 +10,12 @@
    
 }
 
+.teks{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
 #hapus{
     background-color: red;
     color: white;
@@ -23,4 +29,15 @@
 
 #hapus:hover{
     background-color: #FF3232;
+}
+
+@media print{
+    .teks{
+        margin-top: 20px;
+        color: black;
+    }
+    
+    #hapus{
+        display: none;
+    }
 }
