@@ -65,11 +65,7 @@ require 'user_set.php';
             <input type="hidden" name="user_id" maxlength="10" value="<?php echo $id_user; ?>">
             
         </form>
-        <form action="" method="post">
-            <button type='submit' name="print" id='btnprint'>
-                <a href="cetak.php" target="_blank">Cetak</a>
-            </button>
-        </form>
+        
 
         <div id="status"></div>
 
@@ -79,6 +75,11 @@ require 'user_set.php';
             ?>
             
         </div>
+        <form action="" method="post">
+            <button type='submit' name="print" id='btnprint'>
+                <a href="cetak.php" target="_blank">Cetak</a>
+            </button>
+        </form>
     </main>
 </body>
 
