@@ -7,52 +7,53 @@ $hari = array("Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu");
 $id_user = $_SESSION['id_user'];
 
 ?>
-
 <link rel="stylesheet" href="print.css">
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <th>&nbsp;</th>
 
-<table>
-    <thead>
-      <th>&nbsp;</th>
-    
     <?php
-    for ($i = 1 ; $i < 13 ; $i++) {
-        echo "<th>" . $i . "</th>";
+    for ($i = 1; $i < 13; $i++) {
+      echo "<th>" . $i . "</th>";
     }
     ?>
-    </thead>
-    <tbody>
-      <?php
-        for ($u = 0 ; $u < sizeof($hari) ; $u++) {
+  </thead>
+  <tbody>
+    <?php
+    for ($u = 0; $u < sizeof($hari); $u++) {
 
-            echo "<tr>";
-            echo "<td>" . $hari[$u] . "</td>";
+      echo "<tr>";
+      echo "<td>" . $hari[$u] . "</td>";
 
-            for ($p = 1 ; $p < 13 ; $p++) {
-                $sql = "SELECT nama_matkul, keterangan, waktumulai, waktuakhir, id_matkul FROM matkul WHERE id_user = '$id_user' AND hari = '$hari[$u]' AND waktumulai = '$p'";
-                $statement = $conn->query($sql);
-                $matkulnya = $statement->fetch_all(MYSQLI_ASSOC);
-            
-            if (empty($matkulnya)) {
-                echo "<td>&nbsp;</td>";
-            } else {
-                $lama = $matkulnya[0]['waktuakhir'] - $matkulnya[0]['waktumulai'] +1;
+      for ($p = 1; $p < 13; $p++) {
+        $sql = "SELECT nama_matkul, keterangan, waktumulai, waktuakhir, id_matkul FROM matkul WHERE id_user = '$id_user' AND hari = '$hari[$u]' AND waktumulai = '$p'";
+        $statement = $conn->query($sql);
+        $matkulnya = $statement->fetch_all(MYSQLI_ASSOC);
 
-                echo "<td class=\"matkul\" colspan=\" " . $lama . "\">";
-                echo $matkulnya[0]['nama_matkul'] . "<br>" . $matkulnya[0]['keterangan'];
-                echo "<form class=\"hapus\" method=\"POST\" action=\"hapus.php\">";
-                echo "<input type=\"hidden\" name=\"id_matkul\" value=\" ". $matkulnya[0]['id_matkul'] . " \"> ";
-                echo "<input type=\"submit\" value=\"hapus\"></form>";
-                echo "</td>";
-
-                $p += $lama - 1;
-            }
+        if (empty($matkulnya)) {
+          echo "<td>&nbsp;</td>";
+        } else {
+          $lama = $matkulnya[0]['waktuakhir'] - $matkulnya[0]['waktumulai'] + 1;
 
 
-            }
-            echo "</tr>";
+          echo "<td class=\"matkul\" colspan=\" " . $lama . "\">";
+          echo $matkulnya[0]['nama_matkul'] . "<br>" . $matkulnya[0]['keterangan'];
+          echo "<form class=\"hapus\" method=\"POST\" action=\"hapus.php\">";
+          echo "<input type=\"hidden\" name=\"id_matkul\" value=\" " . $matkulnya[0]['id_matkul'] . " \"> ";
+          echo "<button type=\"submit\" name=\"hapus\" id =\"hapus\">Hapus</button></form>";
+          echo "</td>";
+
+
+          $p += $lama - 1;
         }
+      }
+      echo "</tr>";
+    }
 
-      ?>
-    </tbody>
-  </table>
-</body>
+    ?>
+  </tbody>
+</table>
+
+<span class='teks'>
+  Kode tabel: <?php echo $id_user; ?>
+</span>
