@@ -1,5 +1,5 @@
-# Assignment-3-HCI-Team-K
-## Final Project - JADWAL .(DOT) COM
+# Final Project Team K
+## JADWAL .(DOT) COM
 link website JADWAL .(DOT) COM: [Klik di sini](http://vioezrael.web.id/)
 
 ## Source Code
