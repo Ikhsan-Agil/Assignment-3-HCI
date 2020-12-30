@@ -3,7 +3,7 @@
 link website JADWAL .(DOT) COM: [Klik di sini](http://vioezrael.web.id/)
 
 ## Source Code
-silahkan klik link berikut: [klik di sini](SourceCodeIMK)
+silahkan klik link berikut untuk melihat source code: [klik di sini](SourceCodeIMK)
 
 ## Team K
 1. Nehemiah Austen Pison (1313619021)- [EzraelVio](https://github.com/EzraelVio)
