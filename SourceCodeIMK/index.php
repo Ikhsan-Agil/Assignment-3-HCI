@@ -73,6 +73,23 @@ require 'user_set.php';
         </form>
 
         <div id="status"></div>
+        
+        <div id="info">
+        <p>
+        Tutorial download:
+        <ol>
+                <li>Pencet tombol <b>Cetak</b> untuk memulai proses penyimpanan atau cetak.</li>
+                <li>Ubah Layout menjadi <b>Landscape</b> agar tabel terlihat rapih.</li>
+                <li>Pilih Destination <b>Save as PDF</b>.</li>
+                <li>(Opsional) Pencet <b>more option</b> dan centang pilihan <b>Background Grapich</b> untuk memunculkan warna tabel.</li>
+                <li>Pencet tombol <b>Save</b> untuk menyimpan jadwal ke dalam perangkat.</b>
+        </ol>
+        <br>
+        <l>Suka dengan website kami? bantu kami mengembangkan website ini dengan mengisi kuesioner! <a href="./pertanyaan.php">klik disini</a> untuk pergi ke kuesioner.</l>
+
+        </p>
+
+        </div>
 
         <div id="printer">
             <?php
