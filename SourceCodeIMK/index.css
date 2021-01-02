@@ -63,6 +63,11 @@ main {
     margin: 30px 20px;
 }
 
+#info {
+    margin: 20px 50px 20px 50px;
+    color: white;
+}
+
 #matkul {
     margin-left: 30px;
     padding: 5px 5px;
@@ -158,7 +163,7 @@ td {
 }
 
 @media print{
-    h1, header, #matkul, #keterangan, #hari, #mulai, #selesai, #submit, #btnprint{
+    h1, header, #matkul, #keterangan, #hari, #mulai, #selesai, #submit, #btnprint, #info{
         display: none;
     }
 
