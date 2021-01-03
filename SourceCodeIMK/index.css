@@ -188,7 +188,7 @@ i{
 }
 
 @media print{
-    h1, header, #matkul, #keterangan, #hari, #mulai, #selesai, #submit, #btnprint, #info{
+    h1, header, #matkul, #keterangan, #hari, #mulai, #selesai, #submit, #btnprint, #info, footer, #kotakfooter{
         display: none;
     }
 
