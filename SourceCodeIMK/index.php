@@ -15,6 +15,9 @@ require 'user_set.php';
 
     <link rel="stylesheet" href="index.css">
 
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/16d1e76ef9.js" crossorigin="anonymous"></script>
+
     <!-- Google Fonts -->
     <!-- Roboto -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,19 +30,19 @@ require 'user_set.php';
     <header>
         <h1>JADWAL .(DOT) COM</h1>
         <div class='kanan'>
-        <form id="caridata" method="POST" action="cariid.php">
-            <input type="search" name="loadid" id="search" maxlength="10" required>
-            <button type='submit' id='btncari'>
-                Cari Data
-            </button>
-        </form>
+            <form id="caridata" method="POST" action="cariid.php">
+                <input type="search" name="loadid" id="search" maxlength="10" required>
+                <button type='submit' id='btncari'>
+                    Cari Data
+                </button>
+            </form>
         </div>
     </header>
 
     <main>
         <form id="formtabel" method="POST">
-            <input type="text" name="nama_matkul" id="matkul" maxlength="20" placeholder="Nama Matkul" required/>
-            <input type="text" name="keterangan" id="keterangan" maxlength="20" placeholder="Keterangan" required/>
+            <input type="text" name="nama_matkul" id="matkul" maxlength="20" placeholder="Nama Matkul" required />
+            <input type="text" name="keterangan" id="keterangan" maxlength="20" placeholder="Keterangan" required />
             <select name="hari" id="hari">
                 <option>Senin</option>
                 <option>Selasa</option>
@@ -67,27 +70,27 @@ require 'user_set.php';
                 Submit
             </button>
             <button onClick="window.print()" name="print" id='btnprint' title="Centang background grapich di more settings untuk mencetak warna">
-            Cetak
+                Cetak
             </button>
 
         </form>
 
         <div id="status"></div>
-        
+
         <div id="info">
-        <p>
-        Tutorial download:
-        <ol>
+            <p>
+                Tutorial download:
+            <ol>
                 <li>Pencet tombol <b>Cetak</b> untuk memulai proses penyimpanan atau cetak.</li>
                 <li>Ubah Layout menjadi <b>Landscape</b> agar tabel terlihat rapih.</li>
                 <li>Pilih Destination <b>Save as PDF</b>.</li>
                 <li>(Opsional) Pencet <b>more option</b> dan centang pilihan <b>Background Grapich</b> untuk memunculkan warna tabel.</li>
                 <li>Pencet tombol <b>Save</b> untuk menyimpan jadwal ke dalam perangkat.</b>
-        </ol>
-        <br>
-        <l>Suka dengan website kami? bantu kami mengembangkan website ini dengan mengisi kuesioner! <a href="./pertanyaan.php">klik disini</a> untuk pergi ke kuesioner.</l>
+            </ol>
+            <br>
+            <l>Suka dengan website kami? bantu kami mengembangkan website ini dengan mengisi kuesioner! <a href="./pertanyaan.php">klik disini</a> untuk pergi ke kuesioner.</l>
 
-        </p>
+            </p>
 
         </div>
 
@@ -98,6 +101,18 @@ require 'user_set.php';
 
         </div>
     </main>
+    <footer>
+        <div id="kotakfooter">
+            <h2>Kontak Kami</h2>
+            <div id="cc">
+                Email:
+                <ul>
+                    <li id="list"><i class="far fa-envelope"></i>kusumaagil68@gmail.com</li>
+                    <li id="list"><i class="far fa-envelope"></i>ezraelvio@yahoo.co.id</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
