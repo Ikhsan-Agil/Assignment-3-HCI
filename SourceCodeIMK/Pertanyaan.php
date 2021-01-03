@@ -12,11 +12,14 @@ require 'config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jadwaldotcom</title>
     <link rel="stylesheet" href="pertanyaan.css">
+
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/16d1e76ef9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-    <h1>JADWAL .(DOT) COM</h1>
+        <h1>JADWAL .(DOT) COM</h1>
     </header>
     <div class="container">
         <H1>User Feedback</H1>
@@ -44,4 +47,16 @@ require 'config.php';
             </button>
         </form>
     </div>
+    <footer>
+        <div id="kotakfooter">
+            <h2>Kontak Kami</h2>
+            <div id="cc">
+                Email:
+                <ul>
+                    <li id="list"><i class="far fa-envelope"></i>kusumaagil68@gmail.com</li>
+                    <li id="list"><i class="far fa-envelope"></i>ezraelvio@yahoo.co.id</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
