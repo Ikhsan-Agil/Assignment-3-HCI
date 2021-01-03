@@ -1,9 +1,9 @@
 # Final Project Team K
 ## JADWAL .(DOT) COM
-link website JADWAL .(DOT) COM: [Klik di sini](http://vioezrael.web.id/)
+Link website JADWAL .(DOT) COM: [Klik di sini](http://jadwalku.web.id/)
 
 ## Source Code
-silahkan klik link berikut untuk melihat source code: [klik di sini](SourceCodeIMK)
+Silahkan klik link berikut untuk melihat source code: [klik di sini](SourceCodeIMK)
 
 ## Team K
 1. Nehemiah Austen Pison (1313619021)- [EzraelVio](https://github.com/EzraelVio)
