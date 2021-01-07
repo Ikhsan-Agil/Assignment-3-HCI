@@ -1,6 +1,6 @@
 # Final Project Team K
-## JADWAL .(DOT) COM
-Link website JADWAL .(DOT) COM: [Klik di sini](http://jadwalku.web.id/)
+## jadwalku.web.id
+Link website jadwalku.web.id: [Klik di sini](http://jadwalku.web.id/)
 
 ## Source Code
 Silahkan klik link berikut untuk melihat source code: [klik di sini](SourceCodeIMK)
