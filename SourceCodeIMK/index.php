@@ -28,7 +28,7 @@ require 'user_set.php';
 
 <body>
     <header>
-        <h1>JADWAL .(DOT) COM</h1>
+        <h1>Jadwal Dot Com</h1>
         <div class='kanan'>
             <form id="caridata" method="POST" action="cariid.php">
                 <input type="search" name="loadid" id="search" maxlength="10" required>
