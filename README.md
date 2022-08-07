@@ -40,13 +40,3 @@ berikut link untuk report writing: [report writing](https://github.com/Ikhsan-Ag
 1.  Nehemiah Austen Pison (1313619021)- [EzraelVio](https://github.com/EzraelVio)
 2.  Ikhsan Agil Kusuma (1313619005)- [Ikhsan-Agil](https://github.com/Ikhsan-Agil)
 3.  Muhammad Faris Al Husain (1313619020)- [FarisAlHusain20](https://github.com/FarisAlHusain20)
-
-# Final Project Team K
-
-Link report: [klik di sini](https://github.com/Ikhsan-Agil/Assignment-3-HCI-Team-K/blob/final-project/Laporan%20IMK%20Final%20Project%20Team%20K.pdf)
-<br>
-<br>
-Link website jadwalku.web.id: [Klik di sini](http://jadwalku.web.id/)
-<br>
-<br>
-link source code: [klik di sini](SourceCodeIMK)
